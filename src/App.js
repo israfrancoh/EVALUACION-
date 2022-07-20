@@ -82,10 +82,6 @@ function createNoteElementImportant(id, content) {
   return element;
 }
 
-
-
-
-
 function addNote() {
   const notes = getNotes();
   const noteObject = {

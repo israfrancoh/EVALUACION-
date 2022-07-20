@@ -42,7 +42,6 @@ body {
   position: absolute;
   margin-top:-90px;
   margin-left: 1100px;
-
   height: 40px;
   border: none;
   outline: none;
@@ -58,7 +57,6 @@ body {
   position: absolute;
   margin-top:-45px;
   margin-left: 1100px;
-
   height: 40px;
   border: none;
   outline: none;
@@ -71,13 +69,16 @@ body {
 }
 
 .delete-note {
-  height: 200px;
+  position: absolute;
+  margin-top:-85px;
+  margin-left: 350px;
+  height: 45px;
   border: none;
   outline: none;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   transition: background 0.2s;
 } 
@@ -86,3 +87,5 @@ body {
   background: rgba(0, 0, 0, 0.2);
 }
 
+@media only screen and (min-device-width: 1200px){
+}
